@@ -23,10 +23,10 @@ Testing toys under FreeBSD
 - :black_square_button: cpio
 - :white_check_mark: crc32
 - :black_square_button: cut
-- :black_square_button: date
+- :white_check_mark: date
 - :black_square_button: dd
 - :black_square_button: devmem
-- :black_square_button: df
+- :white_check_mark: df
 - :black_square_button: dirname
 - :black_square_button: dnsdomainname
 - :black_square_button: dos2unix
