@@ -1,7 +1,7 @@
 # toybox-freebsd
 Testing toys under FreeBSD
 
-- :black_square_button: acpi
+- :x: acpi: /sys/class: No such file or directory
 - :white_check_mark: ascii
 - :white_check_mark: base32
 - :white_check_mark: base64
