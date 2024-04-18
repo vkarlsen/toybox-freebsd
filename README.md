@@ -2,26 +2,26 @@
 Testing toys under FreeBSD
 
 - [ ] acpi
-- [ ] ascii
-- [ ] base32
-- [ ] base64
-- [ ] basename
-- [ ] bunzip2
-- [ ] bzcat
-- [ ] cal
-- [ ] cat
-- [ ] chgrp
-- [ ] chmod
-- [ ] chown
-- [ ] chroot
-- [ ] chrt
-- [ ] cksum
-- [ ] clear
-- [ ] cmp
-- [ ] comm
-- [ ] count
+- [x] ascii
+- [x] base32
+- [x] base64
+- [x] basename
+- [x] bunzip2
+- [x] bzcat
+- [x] cal
+- [x] cat
+- [x] chgrp
+- [x] chmod
+- [x] chown
+- [x] chroot
+- [x] chrt
+- [x] cksum: not crc32 though
+- [x] clear
+- [x] cmp
+- [x] comm
+- [x] count
 - [ ] cpio
-- [ ] crc32
+- [x] crc32
 - [ ] cut
 - [ ] date
 - [ ] dd
