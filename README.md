@@ -1,159 +1,159 @@
 # toybox-freebsd
 Testing toys under FreeBSD
 
-- [ ] acpi
-- [x] ascii
-- [x] base32
-- [x] base64
-- [x] basename
-- [x] bunzip2
-- [x] bzcat
-- [x] cal
-- [x] cat
-- [x] chgrp
-- [x] chmod
-- [x] chown
-- [x] chroot
-- [x] chrt
-- [x] cksum: not crc32 though
-- [x] clear
-- [x] cmp
-- [x] comm
-- [x] count
-- [ ] cpio
-- [x] crc32
-- [ ] cut
-- [ ] date
-- [ ] dd
-- [ ] devmem
-- [ ] df
-- [ ] dirname
-- [ ] dnsdomainname
-- [ ] dos2unix
-- [ ] du
-- [ ] echo
-- [ ] egrep
-- [ ] env
-- [ ] expand
-- [ ] factor
-- [ ] fallocate
-- [ ] false
-- [ ] fgrep
-- [ ] file
-- [ ] find
-- [ ] flock
-- [ ] fmt
-- [ ] fold
-- [ ] fsync
-- [ ] ftpget
-- [ ] ftpput
-- [ ] grep
-- [ ] groups
-- [ ] gunzip
-- [ ] head
-- [ ] help
-- [ ] hexedit
-- [ ] host
-- [ ] hostname
-- [ ] httpd
-- [ ] iconv
-- [ ] id
-- [ ] kill
-- [ ] killall
-- [ ] killall5
-- [ ] link
-- [ ] ln
-- [ ] logger
-- [ ] logname
-- [ ] ls
-- [ ] lsmod
-- [ ] lspci
-- [ ] lsusb
-- [ ] makedevs
-- [ ] mcookie
-- [ ] md5sum
-- [ ] microcom
-- [ ] mkdir
-- [ ] mkfifo
-- [ ] mknod
-- [ ] mkpasswd
-- [ ] mkswap
-- [ ] mktemp
-- [ ] modinfo
-- [ ] mountpoint
-- [ ] nbd-server
-- [ ] nc
-- [ ] netcat
-- [ ] nice
-- [ ] nl
-- [ ] nohup
-- [ ] od
-- [ ] paste
-- [ ] patch
-- [ ] pidof
-- [ ] pmap
-- [ ] printenv
-- [ ] printf
-- [ ] pwd
-- [ ] pwdx
-- [ ] pwgen
-- [ ] readelf
-- [ ] readlink
-- [ ] realpath
-- [ ] renice
-- [ ] reset
-- [ ] rev
-- [ ] rm
-- [ ] rmdir
-- [ ] sed
-- [ ] seq
-- [ ] setsid
-- [ ] sha1sum
-- [ ] sha224sum
-- [ ] sha256sum
-- [ ] sha384sum
-- [ ] sha3sum
-- [ ] sha512sum
-- [ ] shred
-- [ ] shuf
-- [ ] sleep
-- [ ] sort
-- [ ] split
-- [ ] stat
-- [ ] strings
-- [ ] su
-- [ ] sync
-- [ ] sysctl
-- [ ] tac
-- [ ] tail
-- [ ] tee
-- [ ] test
-- [ ] time
-- [ ] timeout
-- [ ] touch
-- [ ] true
-- [ ] truncate
-- [ ] ts
-- [ ] tsort
-- [ ] tty
-- [ ] uname
-- [ ] unicode
-- [ ] uniq
-- [ ] unix2dos
-- [ ] unlink
-- [ ] usleep
-- [ ] uudecode
-- [ ] uuencode
-- [ ] uuidgen
-- [ ] vmstat
-- [ ] w
-- [ ] watch
-- [ ] wc
-- [ ] wget
-- [ ] which
-- [ ] who
-- [ ] whoami
-- [ ] xargs
-- [ ] xxd
-- [ ] yes
-- [ ] zcat
+- :black_square_button: acpi
+- :white_check_mark: ascii
+- :white_check_mark: base32
+- :white_check_mark: base64
+- :white_check_mark: basename
+- :white_check_mark: bunzip2
+- :white_check_mark: bzcat
+- :white_check_mark: cal
+- :white_check_mark: cat
+- :white_check_mark: chgrp
+- :white_check_mark: chmod
+- :white_check_mark: chown
+- :white_check_mark: chroot
+- :white_check_mark: chrt
+- :bangbang: cksum: seems to work, but is not crc32
+- :white_check_mark: clear
+- :white_check_mark: cmp
+- :white_check_mark: comm
+- :white_check_mark: count
+- :black_square_button: cpio
+- :white_check_mark: crc32
+- :black_square_button: cut
+- :black_square_button: date
+- :black_square_button: dd
+- :black_square_button: devmem
+- :black_square_button: df
+- :black_square_button: dirname
+- :black_square_button: dnsdomainname
+- :black_square_button: dos2unix
+- :black_square_button: du
+- :black_square_button: echo
+- :black_square_button: egrep
+- :black_square_button: env
+- :black_square_button: expand
+- :black_square_button: factor
+- :black_square_button: fallocate
+- :black_square_button: false
+- :black_square_button: fgrep
+- :black_square_button: file
+- :black_square_button: find
+- :black_square_button: flock
+- :black_square_button: fmt
+- :black_square_button: fold
+- :black_square_button: fsync
+- :black_square_button: ftpget
+- :black_square_button: ftpput
+- :black_square_button: grep
+- :black_square_button: groups
+- :black_square_button: gunzip
+- :black_square_button: head
+- :black_square_button: help
+- :black_square_button: hexedit
+- :black_square_button: host
+- :black_square_button: hostname
+- :black_square_button: httpd
+- :black_square_button: iconv
+- :black_square_button: id
+- :black_square_button: kill
+- :black_square_button: killall
+- :black_square_button: killall5
+- :black_square_button: link
+- :black_square_button: ln
+- :black_square_button: logger
+- :black_square_button: logname
+- :black_square_button: ls
+- :black_square_button: lsmod
+- :black_square_button: lspci
+- :black_square_button: lsusb
+- :black_square_button: makedevs
+- :black_square_button: mcookie
+- :black_square_button: md5sum
+- :black_square_button: microcom
+- :black_square_button: mkdir
+- :black_square_button: mkfifo
+- :black_square_button: mknod
+- :black_square_button: mkpasswd
+- :black_square_button: mkswap
+- :black_square_button: mktemp
+- :black_square_button: modinfo
+- :black_square_button: mountpoint
+- :black_square_button: nbd-server
+- :black_square_button: nc
+- :black_square_button: netcat
+- :black_square_button: nice
+- :black_square_button: nl
+- :black_square_button: nohup
+- :black_square_button: od
+- :black_square_button: paste
+- :black_square_button: patch
+- :black_square_button: pidof
+- :black_square_button: pmap
+- :black_square_button: printenv
+- :black_square_button: printf
+- :black_square_button: pwd
+- :black_square_button: pwdx
+- :black_square_button: pwgen
+- :black_square_button: readelf
+- :black_square_button: readlink
+- :black_square_button: realpath
+- :black_square_button: renice
+- :black_square_button: reset
+- :black_square_button: rev
+- :black_square_button: rm
+- :black_square_button: rmdir
+- :black_square_button: sed
+- :black_square_button: seq
+- :black_square_button: setsid
+- :black_square_button: sha1sum
+- :black_square_button: sha224sum
+- :black_square_button: sha256sum
+- :black_square_button: sha384sum
+- :black_square_button: sha3sum
+- :black_square_button: sha512sum
+- :black_square_button: shred
+- :black_square_button: shuf
+- :black_square_button: sleep
+- :black_square_button: sort
+- :black_square_button: split
+- :black_square_button: stat
+- :black_square_button: strings
+- :black_square_button: su
+- :black_square_button: sync
+- :black_square_button: sysctl
+- :black_square_button: tac
+- :black_square_button: tail
+- :black_square_button: tee
+- :black_square_button: test
+- :black_square_button: time
+- :black_square_button: timeout
+- :black_square_button: touch
+- :black_square_button: true
+- :black_square_button: truncate
+- :black_square_button: ts
+- :black_square_button: tsort
+- :black_square_button: tty
+- :black_square_button: uname
+- :black_square_button: unicode
+- :black_square_button: uniq
+- :black_square_button: unix2dos
+- :black_square_button: unlink
+- :black_square_button: usleep
+- :black_square_button: uudecode
+- :black_square_button: uuencode
+- :black_square_button: uuidgen
+- :black_square_button: vmstat
+- :black_square_button: w
+- :black_square_button: watch
+- :black_square_button: wc
+- :black_square_button: wget
+- :black_square_button: which
+- :black_square_button: who
+- :black_square_button: whoami
+- :black_square_button: xargs
+- :black_square_button: xxd
+- :black_square_button: yes
+- :black_square_button: zcat
