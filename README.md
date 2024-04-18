@@ -27,12 +27,12 @@ Testing toys under FreeBSD
 - :black_square_button: dd
 - :black_square_button: devmem
 - :white_check_mark: df
-- :black_square_button: dirname
+- :white_check_mark: dirname
 - :black_square_button: dnsdomainname
 - :black_square_button: dos2unix
-- :black_square_button: du
-- :black_square_button: echo
-- :black_square_button: egrep
+- :white_check_mark: du
+- :white_check_mark: echo
+- :white_check_mark: egrep
 - :black_square_button: env
 - :black_square_button: expand
 - :black_square_button: factor
@@ -53,8 +53,8 @@ Testing toys under FreeBSD
 - :black_square_button: head
 - :black_square_button: help
 - :black_square_button: hexedit
-- :black_square_button: host
-- :black_square_button: hostname
+- :white_check_mark: host
+- :white_check_mark: hostname
 - :black_square_button: httpd
 - :black_square_button: iconv
 - :black_square_button: id
@@ -65,10 +65,10 @@ Testing toys under FreeBSD
 - :black_square_button: ln
 - :black_square_button: logger
 - :black_square_button: logname
-- :black_square_button: ls
-- :black_square_button: lsmod
-- :black_square_button: lspci
-- :black_square_button: lsusb
+- :white_check_mark: ls
+- :x: lsmod: No file /proc/modules: No such file or directory
+- :x: lspci: /sys/bus/pci/devices/: No such file or directory
+- :x: lsusb: /sys/bus/usb/devices/: No such file or directory
 - :black_square_button: makedevs
 - :black_square_button: mcookie
 - :black_square_button: md5sum
