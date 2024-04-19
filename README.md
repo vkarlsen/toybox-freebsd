@@ -15,14 +15,14 @@ Testing toys under FreeBSD
 - :white_check_mark: chown
 - :white_check_mark: chroot
 - :white_check_mark: chrt
-- :bangbang: cksum: seems to work, but is not crc32
+- :white_check_mark: cksum
 - :white_check_mark: clear
 - :white_check_mark: cmp
 - :white_check_mark: comm
 - :white_check_mark: count
 - :black_square_button: cpio
 - :white_check_mark: crc32
-- :black_square_button: cut
+- :white_check_mark: cut
 - :white_check_mark: date
 - :black_square_button: dd
 - :black_square_button: devmem
@@ -39,7 +39,7 @@ Testing toys under FreeBSD
 - :black_square_button: fallocate
 - :black_square_button: false
 - :black_square_button: fgrep
-- :black_square_button: file
+- :white_check_mark: file
 - :white_check_mark: find
 - :black_square_button: flock
 - :black_square_button: fmt
@@ -47,10 +47,10 @@ Testing toys under FreeBSD
 - :black_square_button: fsync
 - :black_square_button: ftpget
 - :black_square_button: ftpput
-- :black_square_button: grep
-- :black_square_button: groups
+- :white_check_mark: grep
+- :white_check_mark: groups
 - :black_square_button: gunzip
-- :black_square_button: head
+- :white_check_mark: head
 - :black_square_button: help
 - :black_square_button: hexedit
 - :white_check_mark: host
@@ -61,8 +61,8 @@ Testing toys under FreeBSD
 - :black_square_button: kill
 - :black_square_button: killall
 - :black_square_button: killall5
-- :black_square_button: link
-- :black_square_button: ln
+- :white_check_mark: link
+- :white_check_mark: ln
 - :black_square_button: logger
 - :black_square_button: logname
 - :white_check_mark: ls
