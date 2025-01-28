@@ -79,7 +79,7 @@ Testing toys under FreeBSD
 - :black_square_button: mkpasswd
 - :black_square_button: mkswap
 - :black_square_button: mktemp
-- :black_square_button: modinfo
+- :x: modinfo
 - :black_square_button: mountpoint
 - :black_square_button: nbd-server
 - :black_square_button: nc
