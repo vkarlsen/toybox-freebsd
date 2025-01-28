@@ -123,7 +123,7 @@ Testing toys under FreeBSD
 - :black_square_button: strings
 - :black_square_button: su
 - :black_square_button: sync
-- :black_square_button: sysctl
+- :x: sysctl: /proc/sys: No such file or directory
 - :black_square_button: tac
 - :black_square_button: tail
 - :black_square_button: tee
