@@ -20,7 +20,7 @@ Testing toys under FreeBSD
 - :white_check_mark: cmp
 - :white_check_mark: comm
 - :white_check_mark: count
-- :black_square_button: cpio
+- :white_check_mark: cpio
 - :white_check_mark: crc32
 - :white_check_mark: cut
 - :white_check_mark: date
@@ -38,7 +38,7 @@ Testing toys under FreeBSD
 - :black_square_button: factor
 - :black_square_button: fallocate
 - :black_square_button: false
-- :black_square_button: fgrep
+- :white_check_mark: fgrep
 - :white_check_mark: file
 - :white_check_mark: find
 - :black_square_button: flock
@@ -49,37 +49,37 @@ Testing toys under FreeBSD
 - :black_square_button: ftpput
 - :white_check_mark: grep
 - :white_check_mark: groups
-- :black_square_button: gunzip
+- :white_check_mark: gunzip
 - :white_check_mark: head
-- :black_square_button: help
-- :black_square_button: hexedit
+- :white_check_mark: help
+- :white_check_mark: hexedit
 - :white_check_mark: host
 - :white_check_mark: hostname
 - :black_square_button: httpd
 - :black_square_button: iconv
 - :black_square_button: id
-- :black_square_button: kill
+- :white_check_mark: kill
 - :black_square_button: killall
 - :black_square_button: killall5
 - :white_check_mark: link
 - :white_check_mark: ln
-- :black_square_button: logger
-- :black_square_button: logname
+- :white_check_mark: logger
+- :white_check_mark: logname
 - :white_check_mark: ls
 - :x: lsmod: No file /proc/modules: No such file or directory
 - :x: lspci: /sys/bus/pci/devices/: No such file or directory
 - :x: lsusb: /sys/bus/usb/devices/: No such file or directory
 - :black_square_button: makedevs
-- :black_square_button: mcookie
-- :black_square_button: md5sum
+- :white_check_mark: mcookie
+- :white_check_mark: md5sum
 - :black_square_button: microcom
-- :black_square_button: mkdir
-- :black_square_button: mkfifo
+- :white_check_mark: mkdir
+- :white_check_mark: mkfifo
 - :black_square_button: mknod
-- :black_square_button: mkpasswd
-- :black_square_button: mkswap
-- :black_square_button: mktemp
-- :x: modinfo
+- :white_check_mark: mkpasswd
+- :white_check_mark: mkswap
+- :white_check_mark: mktemp
+- :x: modinfo: /lib/modules/14.2-RELEASE-p1: No such file or directory
 - :black_square_button: mountpoint
 - :black_square_button: nbd-server
 - :black_square_button: nc
@@ -95,8 +95,8 @@ Testing toys under FreeBSD
 - :white_check_mark: printenv
 - :black_square_button: printf
 - :white_check_mark: pwd
-- :black_square_button: pwdx
-- :black_square_button: pwgen
+- :x: pwdx: <pid>: No such file or directory
+- :white_check_mark: pwgen
 - :black_square_button: readelf
 - :black_square_button: readlink
 - :black_square_button: realpath
