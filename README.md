@@ -59,8 +59,8 @@ Testing toys under FreeBSD
 - :black_square_button: iconv
 - :black_square_button: id
 - :white_check_mark: kill
-- :black_square_button: killall
-- :black_square_button: killall5
+- :x: killall: needs linux-type /proc
+- :x: killall5: needs linux-type /proc
 - :white_check_mark: link
 - :white_check_mark: ln
 - :white_check_mark: logger
