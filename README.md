@@ -24,12 +24,12 @@ Testing toys under FreeBSD
 - :white_check_mark: crc32
 - :white_check_mark: cut
 - :white_check_mark: date
-- ✅: dd
+- ✅ dd
 - :black_square_button: devmem
 - :white_check_mark: df
 - :white_check_mark: dirname
 - :black_square_button: dnsdomainname
-- :✅: dos2unix
+- ✅ dos2unix
 - :white_check_mark: du
 - :white_check_mark: echo
 - :white_check_mark: egrep
